@@ -1,0 +1,1 @@
+Hola mi nombre es Agutín Blanco y soy uno de los integrantes del grupo 7. Vivo en la ciudad de El Trébol que está en el interior de la provincia de Santa Fe. Estoy cursando mi último año de la secundaria y en mis tiempos libres hago basquet y voy al gimnasio.
