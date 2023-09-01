@@ -19,3 +19,11 @@ Nuestro sitio web se especializa en ofrecer una amplia gama de productos y servi
 
 Público Objetivo:
 Nuestro sitio web está dirigido a entusiastas de la tecnología, gamers, profesionales de la informática, estudiantes y cualquier persona interesada en mejorar o personalizar su hardware informático. Abarcamos tanto a principiantes que buscan consejos y productos accesibles como a expertos que buscan las últimas novedades y soluciones de alto rendimiento. Nuestra misión es proporcionar recursos, productos y servicios que ayuden a cada usuario a alcanzar su máximo potencial en el mundo de la informática y la tecnología.
+
+
+Las paginas de referencia que elegimos fueron:
+-https://fullh4rd.com.ar
+-https://www.maximus.com.ar
+-https://compragamer.com
+-https://www.gezatek.com.ar
+-https://www.venex.com.ar
