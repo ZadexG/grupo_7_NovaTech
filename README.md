@@ -25,4 +25,4 @@ Las paginas de referencia que elegimos fueron:
 -https://www.maximus.com.ar/
 -https://compragamer.com/
 -https://www.gezatek.com.ar/
--https://www.venex.com.arf/
+-https://www.venex.com.ar/
