@@ -40,3 +40,19 @@ Las paginas de referencia que elegimos fueron:
 -https://www.venex.com.ar/
 
 Las elegimos ya que eran atractivas visualmente y fáciles de utilizar. En general usamos todas para cada decisión dobre nuestra página para tratar de no hacer una copia de las ya existentes.
+
+
+
+Los Wireframes los hicimos virtualmente en Wireframe.cc y no pudimos descargarlos ya que había que pagar para ello. Así que aca están los links:
+
+-PC-Home: https://wireframe.cc/xD0Rru
+-PC-Producto: https://wireframe.cc/MHhFpB
+-PC-Carrito: https://wireframe.cc/rX0Bv7
+-PC-Login: https://wireframe.cc/qdrK3W
+-PC-Registro: https://wireframe.cc/AnqOuU
+
+-Mobile-Home: https://wireframe.cc/cnR2Uu
+-Mobile-Producto: https://wireframe.cc/W9vqyU
+-Mobile-Carrito: https://wireframe.cc/5LFccI
+-Mobile-Login: https://wireframe.cc/ArFmcw
+-Mobile-Registro: https://wireframe.cc/o0twPu
