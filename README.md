@@ -43,7 +43,7 @@ Las elegimos ya que eran atractivas visualmente y fáciles de utilizar. En gener
 
 
 
-Los Wireframes los hicimos virtualmente en Wireframe.cc y no pudimos descargarlos ya que había que pagar para ello. Así que aca están los links:
+Los Wireframes los hicimos virtualmente en wireframe.cc y no pudimos descargarlos ya que había que pagar para ello. Así que aca están los links:
 
 -PC-Home: https://wireframe.cc/xD0Rru
 -PC-Producto: https://wireframe.cc/MHhFpB
