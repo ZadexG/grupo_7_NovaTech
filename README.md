@@ -34,16 +34,9 @@ Nuestro sitio web está dirigido a entusiastas de la tecnología, gamers, profes
 
 Las paginas de referencia que elegimos fueron:
 -https://fullh4rd.com.ar/
-
-
 -https://www.maximus.com.ar/
-
-
 -https://compragamer.com/
-
-
 -https://www.gezatek.com.ar/
-
-
 -https://www.venex.com.ar/
 
+Las elegimos ya que eran atractivas visualmente y fáciles de utilizar. En general usamos todas para cada decisión dobre nuestra página para tratar de no hacer una copia de las ya existentes.
