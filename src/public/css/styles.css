@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+}
+
+.top-header{
+    background-color: #0d0d0d;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 25%;
+}
+
+.form ul{
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+nav{
+    color: #f2f2f0;
+    margin-top: 35px;
+}
+
+nav ul i{
+    margin-left: 25px;
+}
+nav ul a{
+    margin-left: 10px;
+}
+
+.header2{
+    background-color: #8c8674;
+    display: flex;
+    padding-left: 100px;
+}
+
+.header2 p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.carrusel{
+    height: 300px;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+  
+main section article{
+    background-color: #fff;    
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+main section article img{
+    width: 100%;
+}
+  
+main section article i,
+.discount{
+    color: #39b54a;
+}
+  
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+  
+main section h3{
+    margin: 20px 0px;
+}
+
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.offers h2{
+    font-size: 25px;
+}
+  
+.price{
+    font-size: 18px;
+    width: 30%;
+}
+  
+.discount{
+    width: 70%;
+}
+  
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+  
+h3,
+.description{
+    color: #666;
+}
+  
+.description{
+    display: none;
+    margin-top: 20px;
+}
+
+article div.main-article{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+footer div{
+    background-color: #4178bf;
+    color: #0d0d0d;
+    height: 212px;
+}
+
+@media (min-width: 361px){
+    main section article .description{
+        display: block;
+    }
+  
+    main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+  
+    main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    main section div.products article{
+        width: 45%;
+    }
+  
+    .price,
+    .discount{
+        width: 50%;
+    }
+  }
+  
+  @media (min-width: 769px){
+    main section div.products article{
+        width: 22%;
+    }
+  }
