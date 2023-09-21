@@ -138,6 +138,33 @@ footer div{
 }
 
 @media (min-width: 361px){
+    .progress {
+        justify-content: center;
+        display: flex;
+        position: relative;
+        bottom: 111px;
+        background-color: #333331;
+        margin-top: -22px;
+      }
+    main .cart {
+        display: flex;
+        justify-content: center;
+        background-color: #222220;
+        padding: 1vh;
+        padding-top: 1vh;
+        padding-top: 290px;
+      }
+    }
+    
+        main section .box2 {
+        border: solid;
+        background: #1e1e1a;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: relative;
+        bottom: 157px;
+        height: 393px;
+      }
     .box {
         border: solid;
         background: #1e1e1a;
@@ -173,14 +200,12 @@ footer div{
     margin-right: 2px;
     margin-left: 1px;
   }
-      }
      
       .button:hover{
         background:#0022AA
       }
-      
-    
-      button {
+     
+      button{
         font-family: "montserrat", sans-serif;
         background: #1a65ab;
         color: #fff;
@@ -220,6 +245,52 @@ footer div{
         width:100%;
         transition:800ms ease all;
       }
+
+      .button2:hover{
+        background:#0022AA
+      }
+     
+      .button2 {
+        font-family: "montserrat", sans-serif;
+        background: #1a65ab;
+        color: #fff;
+        border: none;
+        position: relative;
+        height: 1px;
+        font-size: 13px;
+        padding: 1px;
+        cursor: pointer;
+        transition: 800ms ease all;
+        outline: none;
+        bottom: -255px;
+        right: -145px;
+      }
+      .button2:hover{
+        
+        background:#fff;
+        color:#1AAB8A;
+      }
+      .button2:before,button:after{
+        content:'';
+        position:absolute;
+        top:0;
+        right:0;
+        height:2px;
+        width:0;
+        background: #1AAB8A;
+        transition:400ms ease all;
+      }
+      .button2:after{
+        right:inherit;
+        top:inherit;
+        left:0;
+        bottom:0;
+      }
+      .button2:hover:before,button:hover:after{
+        width:100%;
+        transition:800ms ease all;
+      }
+
     
       main section ul p {
         color: white;
