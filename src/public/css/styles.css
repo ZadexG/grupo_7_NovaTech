@@ -138,17 +138,25 @@ footer div{
 }
 
 @media (min-width: 361px){
+    .box {
+        border: solid;
+        background: #1e1e1a;
+        padding-left: 20px;
+        padding-right: 20px;}
+
     .registrarse {
         text-align: center;
         color: white;
         text-decoration: underline;
         opacity: 80%;
       }
-    .register {
+      .register {
         display: flex;
         justify-content: center;
         background-color: #222220;
         padding: 1vh;
+        padding-bottom: 54px;
+        padding-top: 54px;
       }
       .border {
         border-radius: 5px;
@@ -184,8 +192,8 @@ footer div{
         cursor: pointer;
         transition: 800ms ease all;
         outline: none;
-        left: 32px;
-        bottom: 10px;
+        bottom: -28px;
+        margin-left:49px
       }
       button:hover{
         
@@ -245,7 +253,6 @@ footer div{
     .discount{
         width: 50%;
     }
-  }
   
   @media (min-width: 769px){
     main section div.products article{
