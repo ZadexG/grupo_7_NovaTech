@@ -56,3 +56,6 @@ Los Wireframes los hicimos virtualmente en wireframe.cc y no pudimos descargarlo
 -Mobile-Carrito: https://wireframe.cc/5LFccI
 -Mobile-Login: https://wireframe.cc/ArFmcw
 -Mobile-Registro: https://wireframe.cc/o0twPu
+
+
+Link al Trello: https://trello.com/b/sxbJZ8bN/proyecto-integrador-grupo-7

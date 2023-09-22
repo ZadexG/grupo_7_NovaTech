@@ -16,9 +16,17 @@
     width: 25%;
 }
 
+.form{
+    width: 400px;
+}
+
 .form ul{
     margin-top: 35px;
     margin-left: 20px;
+}
+
+.form ul input{
+  width: 70%
 }
 
 nav{
@@ -48,13 +56,12 @@ nav ul a{
 }
 
 main{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
   
 main section article{
     background-color: #fff;    
-    margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -84,16 +91,17 @@ main section article i{
 }
   
 main section h3{
-    margin: 20px 0px;
+    width: 100%;
 }
 
-div.offers{
-    display: flex;
-    flex-wrap: wrap;
+.offers{
+    background-color: #0d0d0d;
+    padding: 15px 30px 30px 30px;
 }
 
-div.offers h2{
+.offers h2{
     font-size: 25px;
+    color: #f2f2f0;
 }
   
 .price{
@@ -118,7 +126,6 @@ h3,
   
 .description{
     display: none;
-    margin-top: 20px;
 }
 
 article div.main-article{
@@ -131,13 +138,39 @@ article div.main-article{
     padding: 15px;
 }
 
-footer div{
-    background-color: #4178bf;
-    height: 212px;
+footer{
+  background-color: #222220;
+  height: 290px;
+}
+
+footer h2{
+  color: #f2f2f0;
+  text-align: center;
+}
+
+footer .links{
+  width: 25%;
+}
+
+footer .links i{
+  font-size: 50px;
+  width: 20%;
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+footer .links a{
+  position: relative;
+  bottom: 15px
 }
 
 @media (min-width: 361px){
-    .progress {
+  .offers {
+    background: black;
+    padding: 15px 30px 30px 30px;
+  }
+      .progress {
         justify-content: center;
         display: flex;
         position: relative;
@@ -145,7 +178,9 @@ footer div{
         background-color: #333331;
         margin-top: -22px;
       }
-    main .cart {
+      .progress span
+
+      main .cart {
         display: flex;
         justify-content: center;
         background-color: #222220;
@@ -153,9 +188,8 @@ footer div{
         padding-top: 1vh;
         padding-top: 290px;
       }
-    }
-    
-        main section .box2 {
+}
+      main section .box2 {
         border: solid;
         background: #1e1e1a;
         padding-left: 50px;
@@ -164,13 +198,47 @@ footer div{
         bottom: 157px;
         height: 393px;
       }
-    .box {
+
+      .box {
         border: solid;
         background: #1e1e1a;
         padding-left: 20px;
-        padding-right: 20px;}
+        padding-right: 20px;
+      }
 
-    .registrarse {
+      .box-login {
+        border: solid;
+        background: #1e1e1a;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 350px;
+      }
+
+      .login-title {
+        text-align: center;
+        color: white;
+        text-decoration: underline;
+        opacity: 80%;
+      }
+      .login {
+        display: flex;
+        justify-content: center;
+        background-color: #222220;
+        padding: 1vh;
+        padding-bottom: 200px;
+        padding-top: 200px;
+        height: 664px;
+      }
+
+      .box-login ul{
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        flex-wrap: wrap;
+        align-content: center;
+      }
+
+      .registrarse {
         text-align: center;
         color: white;
         text-decoration: underline;
@@ -186,20 +254,36 @@ footer div{
       }
       .border {
         border-radius: 5px;
-    border: 2px solid #6d5f9d;
-    box-shadow: 0 0 10px #6a5fb9, inset 0 0 10px #7176c2;
-    color: #7793ae;
-    margin-bottom: 14px;
-    outline: none;
-    background: transparent;
-    width: 161px;
-    height: 44px;
-    text-align: center;
-    margin-top: 10px;
-    margin-right: 2px;
-    margin-left: 1px;
-  }
+        border: 2px solid #6d5f9d;
+        box-shadow: 0 0 10px #6a5fb9, inset 0 0 10px #7176c2;
+        color: #7793ae;
+        margin-bottom: 14px;
+        outline: none;
+        background: transparent;
+        width: 161px;
+        height: 44px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-left: 1px;
+      }
      
+      .data {
+        border-radius: 5px;
+        border: 2px solid #6d5f9d;
+        box-shadow: 0 0 10px #6a5fb9, inset 0 0 10px #7176c2;
+        color: #7793ae;
+        margin-bottom: 14px;
+        outline: none;
+        background: transparent;
+        width: 400px;
+        height: 44px;
+        text-align: center;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-left: 1px;
+      }
+
       .button:hover{
         background:#0022AA
       }
@@ -323,14 +407,40 @@ footer div{
     .discount{
         width: 50%;
     }
+
+    .box-login h1{
+      margin-bottom: 15px;
+    }
+
+    .box-login h4{
+      margin-top: 60px;
+      display: flex;
+      justify-content: flex-end;
+    }
   
+    .log{
+      padding: 0px;
+      margin-left: 100px;
+      width: 200px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+    }
+
+
+
   @media (min-width: 769px){
+    .offers {
+      padding: 15px 30px 30px 30px;
+    }
     main section div.products article{
         width: 22%;
     }
   }
 
-
+  .general-login {
+    width: 100%;
+  }
 
   .general-register {
     width: 100%;
