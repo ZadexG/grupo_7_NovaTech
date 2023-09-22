@@ -16,9 +16,17 @@
     width: 25%;
 }
 
+.form{
+    width: 400px;
+}
+
 .form ul{
     margin-top: 35px;
     margin-left: 20px;
+}
+
+.form ul input{
+  width: 70%
 }
 
 nav{
@@ -54,7 +62,6 @@ main{
   
 main section article{
     background-color: #fff;    
-    margin: 10px 0px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -84,16 +91,17 @@ main section article i{
 }
   
 main section h3{
-    margin: 20px 0px;
+    width: 100%;
 }
 
-div.offers{
-    display: flex;
-    flex-wrap: wrap;
+.offers{
+    background-color: #0d0d0d;
+    padding: 15px 30px 30px 30px;
 }
 
-div.offers h2{
+.offers h2{
     font-size: 25px;
+    color: #f2f2f0;
 }
   
 .price{
@@ -118,7 +126,6 @@ h3,
   
 .description{
     display: none;
-    margin-top: 20px;
 }
 
 article div.main-article{
@@ -131,15 +138,37 @@ article div.main-article{
     padding: 15px;
 }
 
-footer div{
-    background-color: #4178bf;
-    height: 212px;
+footer{
+  background-color: #222220;
+  height: 290px;
+}
+
+footer h2{
+  color: #f2f2f0;
+  text-align: center;
+}
+
+footer .links{
+  width: 25%;
+}
+
+footer .links i{
+  font-size: 50px;
+  width: 20%;
+  margin-top: 15px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+footer .links a{
+  position: relative;
+  bottom: 15px
 }
 
 @media (min-width: 361px){
   .offers {
     background: black;
-    padding: 0px 30px 0px 30px;
+    padding: 15px 30px 30px 30px;
   }
     .progress {
         justify-content: center;
@@ -331,14 +360,12 @@ footer div{
   
   @media (min-width: 769px){
     .offers {
-      padding: 0px 30px 0px 30px;
+      padding: 15px 30px 30px 30px;
     }
     main section div.products article{
         width: 22%;
     }
   }
-
-
 
   .general-register {
     width: 100%;
