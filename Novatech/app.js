@@ -9,5 +9,9 @@ app.get("/", (req, res) => {
    
 })
 
+app.get("/productdetail", (req, res) => {
+    res.sendFile( path.join(__dirname, "/views/productdetail.html") );
+});
+
 
 app.listen(3030)
