@@ -331,7 +331,6 @@ footer div{
   
   @media (min-width: 769px){
     .offers {
-      background: red;
       padding: 0px 30px 0px 30px;
     }
     main section div.products article{
