@@ -16,14 +16,23 @@
     width: 25%;
 }
 
+.form{
+    width: 400px;
+}
+
 .form ul{
     margin-top: 35px;
     margin-left: 20px;
 }
 
+.form ul input{
+    width: 70%
+}
+
 nav{
     color: #f2f2f0;
     margin-top: 35px;
+
 }
 
 nav ul i{
@@ -87,13 +96,14 @@ main section h3{
     margin: 20px 0px;
 }
 
-div.offers{
-    display: flex;
-    flex-wrap: wrap;
+.offers{
+    background-color: #0d0d0d;
+    padding: 15px 30px 30px 30px;
 }
 
-div.offers h2{
+.offers h2{
     font-size: 25px;
+    color: #f2f2f0;
 }
   
 .price{
@@ -131,9 +141,31 @@ article div.main-article{
     padding: 15px;
 }
 
-footer div{
-    background-color: #4178bf;
-    height: 212px;
+footer{
+    background-color: #222220;
+    height: 290px;
+}
+
+footer h2{
+    color: #f2f2f0;
+    text-align: center;
+}
+
+footer .links{
+    width: 25%;
+}
+
+footer .links i{
+    font-size: 50px;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+footer .links a{
+    position: relative;
+    bottom: 15px
 }
 
 @media (min-width: 361px){
@@ -304,6 +336,9 @@ footer div{
       }
     main section article .description{
         display: block;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 5px;
     }
   
     main section article{
