@@ -138,18 +138,23 @@ article div.main-article{
     padding: 15px;
 }
 
-footer{
+footer {
   background-color: #222220;
-  height: 290px;
+  height: 100vh;
+  margin-top: -311px;
 }
 
 footer h2{
   color: #f2f2f0;
   text-align: center;
+  position: relative;
+  top: 349px;
 }
 
-footer .links{
-  width: 25%;
+footer .links {
+  width: 51vh;
+  position: relative;
+  top: 403px;
 }
 
 footer .links i{
@@ -178,7 +183,6 @@ footer .links a{
         background-color: #333331;
         margin-top: -22px;
       }
-      .progress span
 
       main .cart {
         display: flex;
@@ -189,7 +193,7 @@ footer .links a{
         padding-top: 290px;
       }
 }
-      main section .box2 {
+      main section .box-cart {
         border: solid;
         background: #1e1e1a;
         padding-left: 50px;
@@ -346,7 +350,7 @@ footer .links a{
         transition: 800ms ease all;
         outline: none;
         bottom: -255px;
-        right: -145px;
+        right: -125px;
       }
       .button2:hover{
         
