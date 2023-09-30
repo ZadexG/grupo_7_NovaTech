@@ -248,6 +248,7 @@ footer .links a{
         color: white;
         text-decoration: underline;
         opacity: 80%;
+        margin-bottom: 5px;
       }
       .register {
         display: flex;
@@ -293,7 +294,7 @@ footer .links a{
         background:#0022AA
       }
      
-      button{
+      button {
         font-family: "montserrat", sans-serif;
         background: #1a65ab;
         color: #fff;
@@ -306,7 +307,7 @@ footer .links a{
         transition: 800ms ease all;
         outline: none;
         bottom: -28px;
-        margin-left:49px
+        margin-left: 62px;
       }
       button:hover{
         

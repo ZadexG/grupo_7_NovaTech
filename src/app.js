@@ -1,24 +1,13 @@
 const express = require ("express")
 const app = express()
 const path= require ("path")
-
+ 
+const mainRoutes = require('./routes/main');
+app.set("view engine", "ejs")
 app.use(express.static(path.join(__dirname,"./public")))
+app.set ("views",path.join(__dirname,"views"))
 
-app.get("/", (req, res) => {
-    res.sendFile (path.join(__dirname, "./views/index.html"));
-})
-
-app.get("/login", (req, res) => {
-    res.sendFile (path.join(__dirname, "./views/login.html"));
-})
-
-app.get("/register", (req, res) => {
-    res.sendFile (path.join(__dirname, "./views/register.html"));
-})
-
-app.get("/productCart", (req, res) => {
-    res.sendFile (path.join(__dirname, "./views/productCart.html"));
-})
+app.use("/", mainRoutes)
 
 const port = 3030;
 app.listen(port, () => {
