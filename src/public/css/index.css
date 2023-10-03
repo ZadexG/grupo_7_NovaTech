@@ -9,29 +9,36 @@
     background-color: #0d0d0d;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.logo{
-    width: 25%;
+.logo {
+    text-align: center;
+}
+
+.logo img{
+    width: 90%;
 }
 
 .form{
-    width: 400px;
+    width: 100%;
 }
 
 .form ul{
-    margin-top: 35px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
 }
 
 .form ul input{
-  width: 70%
+  width: 70%;
+  margin-right: 20px;
 }
 
 nav{
     color: #f2f2f0;
-    margin-top: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav ul i{
@@ -44,7 +51,7 @@ nav ul a{
 .header2{
     background-color: #8c8674;
     display: flex;
-    padding-left: 100px;
+    padding-left: 25px;
 }
 
 .header2 p{
@@ -65,6 +72,7 @@ main section article{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    margin-bottom: 30px;
 }
   
 main section article img{
@@ -96,7 +104,7 @@ main section h3{
 
 .offers{
     background-color: #0d0d0d;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 30px 1px 30px;
 }
 
 .offers h2{
@@ -140,7 +148,7 @@ article div.main-article{
 
 footer {
   background-color: #222220;
-  height: 42vh;
+  height: 26vh;
 }
 
 footer h2 {
@@ -151,12 +159,19 @@ footer h2 {
 }
 
 footer .links {
-  width: 19%;
+  width: 100%;
   position: relative;
   top: 88px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links i{
+  margin-left: 30px;
 }
 
 footer .links a{
   position: relative;
-  bottom: 15px
+  bottom: 15px;
+  margin-left: 70px;
 }

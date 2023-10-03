@@ -7,7 +7,7 @@ const mainRoutes = require('./routes/main');
 app.use(express.static(path.join(__dirname, './public')));
 
 app.set('view engine', 'ejs');
-app.set ('views', path.join(__dirname, 'views/users'));
+app.set ('views', path.join(__dirname, 'views'));
 
 app.use('/', mainRoutes);
 
