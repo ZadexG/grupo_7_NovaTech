@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;    
+    box-sizing: border-box;
+    font-family:"montserrat", sans-serif;
+}
+@media (min-width: 361px){
+  
+    footer .links i{
+      font-size: 30px;
+      width: 20%;
+      margin-top: 15px;
+      margin-left: 30px;
+      text-align: center;
+    }
+  
+    .offers {
+      background: black;
+      padding: 15px 30px 30px 30px;
+    }
+        .progress {
+          justify-content: center;
+          display: flex;
+          position: relative;
+          bottom: 111px;
+          background-color: #333331;
+          margin-top: -22px;
+        }
+  
+        main .cart {
+          display: flex;
+          justify-content: center;
+          background-color: #222220;
+          padding: 1vh;
+          padding-top: 1vh;
+          padding-top: 290px;
+        }
+  }
+        main section .box-cart {
+          border: solid;
+          background: #1e1e1a;
+          padding-left: 50px;
+          padding-right: 50px;
+          position: relative;
+          bottom: 157px;
+          height: 393px;
+        }
+  
+        .box {
+          border: solid;
+          background: #1e1e1a;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+  
+        .box-login {
+          border: solid;
+          background: #1e1e1a;
+          padding-left: 20px;
+          padding-right: 20px;
+          height: 350px;
+        }
+  
+        .login-title {
+          text-align: center;
+          color: white;
+          text-decoration: underline;
+          opacity: 80%;
+        }
+        .login {
+          display: flex;
+          justify-content: center;
+          background-color: #222220;
+          padding: 1vh;
+          padding-bottom: 200px;
+          padding-top: 200px;
+          height: 664px;
+        }
+  
+        .box-login ul{
+          display: flex;
+          flex-direction: column;
+          width: 600px;
+          flex-wrap: wrap;
+          align-content: center;
+        }
+  
+        .registrarse {
+          text-align: center;
+          color: white;
+          text-decoration: underline;
+          opacity: 80%;
+          margin-bottom: 5px;
+        }
+        .register {
+          display: flex;
+          justify-content: center;
+          background-color: #222220;
+          padding: 1vh;
+          padding-bottom: 54px;
+          padding-top: 54px;
+        }
+        .border {
+          border-radius: 5px;
+          border: 2px solid #6d5f9d;
+          box-shadow: 0 0 10px #6a5fb9, inset 0 0 10px #7176c2;
+          color: #7793ae;
+          margin-bottom: 14px;
+          outline: none;
+          background: transparent;
+          width: 161px;
+          height: 44px;
+          text-align: center;
+          margin-top: 10px;
+          margin-right: 2px;
+          margin-left: 1px;
+        }
+       
+        .data {
+          border-radius: 5px;
+          border: 2px solid #6d5f9d;
+          box-shadow: 0 0 10px #6a5fb9, inset 0 0 10px #7176c2;
+          color: #7793ae;
+          margin-bottom: 14px;
+          outline: none;
+          background: transparent;
+          width: 400px;
+          height: 44px;
+          text-align: center;
+          margin-top: 10px;
+          margin-right: 2px;
+          margin-left: 1px;
+        }
+  
+        .button:hover{
+          background:#0022AA
+        }
+       
+        button {
+          font-family: "montserrat", sans-serif;
+          background: #1a65ab;
+          color: #fff;
+          border: none;
+          position: relative;
+          height: 50px;
+          font-size: 1.2em;
+          padding: 0 2em;
+          cursor: pointer;
+          transition: 800ms ease all;
+          outline: none;
+          bottom: -28px;
+          margin-left: 62px;
+        }
+        button:hover{
+          
+          background:#fff;
+          color:#1AAB8A;
+        }
+        button:before,button:after{
+          content:'';
+          position:absolute;
+          top:0;
+          right:0;
+          height:2px;
+          width:0;
+          background: #1AAB8A;
+          transition:400ms ease all;
+        }
+        button:after{
+          right:inherit;
+          top:inherit;
+          left:0;
+          bottom:0;
+        }
+        button:hover:before,button:hover:after{
+          width:100%;
+          transition:800ms ease all;
+        }
+  
+        .button2:hover{
+          background:#0022AA
+        }
+       
+        .button2 {
+          font-family: "montserrat", sans-serif;
+          background: #1a65ab;
+          color: #fff;
+          border: none;
+          position: relative;
+          height: 1px;
+          font-size: 13px;
+          padding: 1px;
+          cursor: pointer;
+          transition: 800ms ease all;
+          outline: none;
+          bottom: -255px;
+          right: -125px;
+        }
+        .button2:hover{
+          
+          background:#fff;
+          color:#1AAB8A;
+        }
+        .button2:before,button:after{
+          content:'';
+          position:absolute;
+          top:0;
+          right:0;
+          height:2px;
+          width:0;
+          background: #1AAB8A;
+          transition:400ms ease all;
+        }
+        .button2:after{
+          right:inherit;
+          top:inherit;
+          left:0;
+          bottom:0;
+        }
+        .button2:hover:before,button:hover:after{
+          width:100%;
+          transition:800ms ease all;
+        }
+  
+      
+        main section ul p {
+          color: white;
+          margin-bottom: 20px;
+          text-align: center;
+          margin-top: 21px;
+          text-decoration: underline;
+          font-size: 17px;
+        }
+      main section article .description{
+          display: block;
+      }
+    
+      main section article{
+          box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      }
+    
+      main section div.products{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: flex-start;
+      }
+      
+      main section div.products article{
+          width: 45%;
+      }
+    
+      .price,
+      .discount{
+          width: 50%;
+      }
+  
+      .box-login h1{
+        margin-bottom: 15px;
+      }
+  
+      .box-login h4{
+        margin-top: 60px;
+        display: flex;
+        justify-content: flex-end;
+      }
+    
+      .log{
+        padding: 0px;
+        margin-left: 100px;
+        width: 200px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+  
