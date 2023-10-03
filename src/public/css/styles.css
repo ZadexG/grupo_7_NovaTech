@@ -140,30 +140,22 @@ article div.main-article{
 
 footer {
   background-color: #222220;
-  height: 100vh;
-  margin-top: -311px;
+  height: 42vh;
 }
 
-footer h2{
+footer h2 {
   color: #f2f2f0;
   text-align: center;
   position: relative;
-  top: 349px;
+  top: 51px;
 }
 
 footer .links {
-  width: 51vh;
+  width: 19%;
   position: relative;
-  top: 403px;
+  top: 88px;
 }
 
-footer .links i{
-  font-size: 50px;
-  width: 20%;
-  margin-top: 15px;
-  margin-left: 30px;
-  text-align: center;
-}
 
 footer .links a{
   position: relative;
@@ -171,6 +163,15 @@ footer .links a{
 }
 
 @media (min-width: 361px){
+  
+  footer .links i{
+    font-size: 30px;
+    width: 20%;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: center;
+  }
+
   .offers {
     background: black;
     padding: 15px 30px 30px 30px;
@@ -247,6 +248,7 @@ footer .links a{
         color: white;
         text-decoration: underline;
         opacity: 80%;
+        margin-bottom: 5px;
       }
       .register {
         display: flex;
@@ -292,7 +294,7 @@ footer .links a{
         background:#0022AA
       }
      
-      button{
+      button {
         font-family: "montserrat", sans-serif;
         background: #1a65ab;
         color: #fff;
@@ -305,7 +307,7 @@ footer .links a{
         transition: 800ms ease all;
         outline: none;
         bottom: -28px;
-        margin-left:49px
+        margin-left: 62px;
       }
       button:hover{
         

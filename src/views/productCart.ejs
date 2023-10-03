@@ -1,0 +1,35 @@
+<%- include("partials/head")%>
+    <body>
+        <%- include("partials/header")%>
+        <main>
+            <form action="productCart.html" method="post" >
+                <section class="cart">
+                    
+                    <div class="box-cart">
+                    <ul>
+                        <il><h1 class="registrarse">Mis compras</h1></il>
+                        <il><label>Producto - Cantidad - $Total</il></label>
+                            <il><p><select name="Cantidad" class="search-u"></p></il>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            </select>
+    </form>
+    <button type="submit" class="button2">Continuar</button>         
+                    </ul>
+                    </div>
+                   
+                    
+                </section>
+                <p class="progress">
+                    <label for="file">Finalizando:</label>
+                    <progress id="file" max="100" value="70">70%</progress></p>
+        </main>
+    </body>
+    <%- include("partials/footer")%>
+</html>
