@@ -4,6 +4,91 @@
     box-sizing: border-box;
     font-family:"montserrat", sans-serif;
 }
+
+.top-header{
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img{
+  width: 90%;
+}
+
+.form{
+  width: 100%;
+}
+
+.form ul{
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.form ul input{
+width: 70%;
+margin-right: 20px;
+}
+
+nav{
+  color: #f2f2f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul i{
+  margin-left: 25px;
+}
+nav ul a{
+  margin-left: 10px;
+}
+
+.header2{
+  background-color: #8c8674;
+  display: flex;
+  padding-left: 25px;
+}
+
+.header2 p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  background-color: #222220;
+  padding-bottom: 93px;
+  height: 50.1vh;
+}
+
+footer h2 {
+  color: #f2f2f0;
+  text-align: center;
+  position: relative;
+  top: 51px;
+}
+
+footer .links {
+  width: 100%;
+  position: relative;
+  top: 88px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .links i{
+  margin-left: 30px;
+}
+
+footer .links a{
+  position: relative;
+  bottom: 15px;
+  margin-left: 70px;
+}
+
 @media (min-width: 361px){
   
     footer .links i{
