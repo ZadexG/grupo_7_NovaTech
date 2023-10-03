@@ -147,31 +147,31 @@ article div.main-article{
 }
 
 footer {
-  background-color: #222220;
-  height: 26vh;
-}
-
-footer h2 {
-  color: #f2f2f0;
-  text-align: center;
-  position: relative;
-  top: 51px;
-}
-
-footer .links {
-  width: 100%;
-  position: relative;
-  top: 88px;
-  display: flex;
-  flex-direction: column;
-}
-
-footer .links i{
-  margin-left: 30px;
-}
-
-footer .links a{
-  position: relative;
-  bottom: 15px;
-  margin-left: 70px;
-}
+    background-color: #222220;
+    height: 26vh;
+  }
+  
+  footer h2 {
+      color: #f2f2f0;
+      text-align: center;
+      position: relative;
+      top: 14px;
+    }
+  
+    footer .links {
+      width: 5%;
+      position: relative;
+      top: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  footer .links i{
+    margin-left: 30px;
+  }
+  
+  footer .links a{
+    position: relative;
+    bottom: 15px;
+    margin-left: 70px;
+  }
