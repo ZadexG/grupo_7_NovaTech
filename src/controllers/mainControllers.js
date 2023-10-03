@@ -10,6 +10,9 @@ const controller = {
     },
     register(req,res){
         res.render('register')
+    },
+    productDetail(req,res) {
+        res.render('productDetail')
     }
 };
 
