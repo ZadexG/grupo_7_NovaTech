@@ -160,50 +160,49 @@ footer .links a{
             margin-left: 1px;
           }
   
-        .button:hover{
-          background:#0022AA
-        }
-       
-        button {
+          .button:hover{
+            background:#0022AA
+          }
+         
+          button {
             font-family: "montserrat", sans-serif;
-            background: #1a65ab;
+            background-color: transparent;
             color: #fff;
             border: none;
             position: relative;
             height: 50px;
             font-size: 1.2em;
+            padding: 0 2em;
             cursor: pointer;
             transition: 800ms ease all;
             outline: none;
-            bottom: -19px;
-            right: 46px;
+            bottom: -28px;
           }
-        
-        button:hover{
-          
-          background:#fff;
-          color:#1AAB8A;
-        }
-        button:before,button:after{
-          content:'';
-          position:absolute;
-          top:0;
-          right:0;
-          height:2px;
-          width:0;
-          background: #1AAB8A;
-          transition:400ms ease all;
-        }
-        button:after{
-          right:inherit;
-          top:inherit;
-          left:0;
-          bottom:0;
-        }
-        button:hover:before,button:hover:after{
-          width:100%;
-          transition:800ms ease all;
-        }
+          button:hover{
+            
+            background:#fff;
+            color:#1AAB8A;
+          }
+          button:before,button:after{
+            content:'';
+            position:absolute;
+            top:0;
+            right:0;
+            height:2px;
+            width:0;
+            background: #1AAB8A;
+            transition:400ms ease all;
+          }
+          button:after{
+            right:inherit;
+            top:inherit;
+            left:0;
+            bottom:0;
+          }
+          button:hover:before,button:hover:after{
+            width:100%;
+            transition:800ms ease all;
+          }
   
         .button2:hover{
           background:#0022AA
