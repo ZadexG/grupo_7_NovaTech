@@ -60,8 +60,7 @@ nav ul a{
 
 footer {
   background-color: #222220;
-  padding-bottom: 93px;
-  height: 50.1vh;
+  height: 30vh;
 }
 
 footer h2 {
@@ -90,84 +89,45 @@ footer .links a{
 }
 
 @media (min-width: 361px){
-  
-    footer .links i{
-      font-size: 30px;
-      width: 20%;
-      margin-top: 15px;
-      margin-left: 30px;
-      text-align: center;
-    }
-  
-    .offers {
-      background: black;
-      padding: 15px 30px 30px 30px;
-    }
-        .progress {
-          justify-content: center;
-          display: flex;
-          position: relative;
-          bottom: 111px;
-          background-color: #333331;
-          margin-top: -22px;
+       
         }
-  
-        main .cart {
-          display: flex;
-          justify-content: center;
-          background-color: #222220;
-          padding: 1vh;
-          padding-top: 1vh;
-          padding-top: 290px;
-        }
-  
-        main section .box-cart {
-          border: solid;
-          background: #1e1e1a;
-          padding-left: 50px;
-          padding-right: 50px;
-          position: relative;
-          bottom: 157px;
-          height: 393px;
-        }
-  
-        .box {
-          border: solid;
-          background: #1e1e1a;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-  
-        .box-login {
-            border: solid;
-            background: #1e1e1a;
-            padding-left: 20px;
-            padding-right: 20px;
-            height: 350px;
-            margin-bottom: 161px;
-            width: 346px;
-          }
-  
-        .login-title {
-          text-align: center;
-          color: white;
-          text-decoration: underline;
-          opacity: 80%;
-        }
-        .login {
-            display: flex;
-            justify-content: center;
-            background-color: #222220;
-            padding: 1vh;
-            padding-top: 200px;
-        }
-
-        h4 .registerMe{
-                position: relative;
-                right: 60px;
+      
+            .box {
+              border: solid;
+              background: #1e1e1a;
+              padding-left: 20px;
+              padding-right: 20px;
+            }
+      
+            .box-login {
+                border: solid;
+                background: #1e1e1a;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 350px;
+                margin-bottom: 161px;
+                width: 346px;
               }
-            
-        }
+      
+            .login-title {
+              text-align: center;
+              color: white;
+              text-decoration: underline;
+              opacity: 80%;
+            }
+            .login {
+                display: flex;
+                justify-content: center;
+                background-color: #222220;
+                padding: 1vh;
+                padding-top: 200px;
+            }
+    
+            h4 .registerMe{
+                    position: relative;
+                    right: 60px;
+                  }
+
         .border {
           border-radius: 5px;
           border: 2px solid #6d5f9d;
