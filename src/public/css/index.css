@@ -14,10 +14,12 @@
 }
 
 .logo {
+    width: 100%;
     text-align: center;
 }
 
 .logo img{
+    margin-left: 10px;
     width: 90%;
 }
 
@@ -32,18 +34,23 @@
 
 .form ul input{
   width: 70%;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 nav{
     color: #f2f2f0;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav ul i{
+#imagenCarrito{
     margin-left: 25px;
 }
+
 nav ul a{
     margin-left: 10px;
 }
@@ -148,7 +155,7 @@ article div.main-article{
 
 footer {
     background-color: #222220;
-    height: 26vh;
+    height: 35vh;
   }
   
   footer h2 {
@@ -174,4 +181,97 @@ footer {
     position: relative;
     bottom: 15px;
     margin-left: 70px;
+  }
+
+  @media (min-width: 481px){
+    .top-header{
+        flex-direction: row;
+    }
+    
+    .logo {
+        width: 40%;
+        text-align: left;
+    }
+
+    .form{
+        width: 40%;
+    }
+
+    .form ul{
+        margin-left: 0;
+    }
+
+    nav{
+        width: 50%;
+    }
+
+    .products{
+        display: flex;
+    }
+
+    .offers{
+        padding: 15px 0px 1px 30px;
+    }
+
+    main section article{
+        margin-right: 30px;
+    }
+
+    .discount{
+        width: 50%;
+    }
+
+    .price{
+        width: 50%;
+    }
+
+    footer {
+        background-color: #222220;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    footer h2 {
+        color: #f2f2f0;
+    }
+    
+    footer .links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    footer .links ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    footer .links li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    footer .links i {
+        margin-right: 10px;
+    }
+    
+    footer .links a {
+        color: #f2f2f0;
+        text-decoration: none;
+        bottom: 0;
+    }
+    
+    footer .links .fab {
+        font-size: 20px;
+    }
+  }
+
+  @media (min-width: 769px){
+
+  }
+
+  @media (min-width: 1280px){
+    
   }
