@@ -1,0 +1,33 @@
+<%- include("../partials/head")%>
+    <head>
+        <link rel="stylesheet" href="/css/createEdit.css">
+    </head>
+<%- include("../partials/header")%>
+    <body>
+        
+        <main class="general-createEdit">
+            <form action="createEdit.ejs" method="post" >
+            <section class="createEdit">
+                
+                <div class="box">
+                <ul>
+                    <il><h1 class="createEditTitle">Create & edit</h1></il>
+                    <il><input type="text" name="Name" placeholder="Nombre del producto" class="border"></il>
+                    <il ><p><input type="text" name="Name" placeholder="Descripción" class="border"></p></il>
+                    <il ><p><label>Imagen</label></il></p>
+                    <il><p><input type="file" name="image" id="image"></p></il>
+                    <il ><input type="text" name="Name" placeholder="Categoría" class="border"></il>
+                    <il ><p><input type="color" name="color" id="color" class="border"></p></il>
+                    <il><p><input type="text" name="Precio" id="Precio" placeholder="Precio" class="border"></p></il>
+                    <button type="submit" class="button">Finalizar proceso</button>
+              
+                    
+                </ul>
+                </div>
+
+
+            </section>
+        </main>
+    </body>
+<%- include("../partials/footer")%>
+</html>
