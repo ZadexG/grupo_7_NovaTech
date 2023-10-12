@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0px;
-    padding: 0px;    
+    padding: 0px;
     box-sizing: border-box;
-    font-family:"montserrat", sans-serif;
+    font-family: "montserrat", sans-serif;
 }
 
-.top-header{
+.top-header {
     background-color: #0d0d0d;
     display: flex;
     align-items: flex-start;
@@ -18,27 +18,27 @@
     text-align: center;
 }
 
-.logo img{
+.logo img {
     margin-left: 10px;
     width: 90%;
 }
 
-.form{
+.form {
     width: 100%;
 }
 
-.form ul{
+.form ul {
     margin-top: 20px;
     margin-left: 40px;
 }
 
-.form ul input{
-  width: 70%;
-  margin-right: 10px;
-  margin-left: 20px;
+.form ul input {
+    width: 70%;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
-nav{
+nav {
     color: #f2f2f0;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -47,51 +47,51 @@ nav{
     justify-content: space-around;
 }
 
-#imagenCarrito{
+#imagenCarrito {
     margin-left: 25px;
 }
 
-nav ul a{
+nav ul a {
     margin-left: 10px;
 }
 
-.header2{
+.header2 {
     background-color: #8c8674;
     display: flex;
     padding-left: 25px;
 }
 
-.header2 p{
+.header2 p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.carrusel{
+.carrusel {
     height: 300px;
 }
 
-main{
+main {
     width: 100%;
     margin: 0 auto;
 }
-  
-main section article{
-    background-color: #fff;    
+
+main section article {
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 30px;
 }
-  
-main section article img{
+
+main section article img {
     width: 100%;
 }
-  
+
 main section article i,
-.discount{
+.discount {
     color: #39b54a;
 }
-  
-main section article i{
+
+main section article i {
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -104,46 +104,46 @@ main section article i{
     right: 20px;
     top: -15px;
 }
-  
-main section h3{
+
+main section h3 {
     width: 100%;
 }
 
-.offers{
+.offers {
     background-color: #0d0d0d;
     padding: 15px 30px 1px 30px;
 }
 
-.offers h2{
+.offers h2 {
     font-size: 25px;
     color: #f2f2f0;
 }
-  
-.price{
+
+.price {
     font-size: 18px;
     width: 30%;
 }
-  
-.discount{
+
+.discount {
     width: 70%;
 }
-  
+
 .discount,
-.description{
+.description {
     font-size: 16px;
     font-weight: normal;
 }
-  
+
 h3,
-.description{
+.description {
     color: #666;
 }
-  
-.description{
+
+.description {
     display: none;
 }
 
-article div.main-article{
+article div.main-article {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -155,73 +155,73 @@ article div.main-article{
 
 footer {
     background-color: #222220;
-    height: 35vh;
-  }
-  
-  footer h2 {
-      color: #f2f2f0;
-      text-align: center;
-      position: relative;
-      top: 14px;
-    }
-  
-    footer .links {
-      width: 5%;
-      position: relative;
-      top: 25px;
-      display: flex;
-      flex-direction: column;
-    }
-  
-  footer .links i{
+    height: 24vh;
+}
+
+footer h2 {
+    color: #f2f2f0;
+    text-align: center;
+    position: relative;
+    top: 14px;
+}
+
+footer .links {
+    width: 5%;
+    position: relative;
+    top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .links i {
     margin-left: 30px;
-  }
-  
-  footer .links a{
+}
+
+footer .links a {
     position: relative;
     bottom: 15px;
     margin-left: 70px;
-  }
+}
 
-  @media (min-width: 481px){
-    .top-header{
+@media (min-width: 481px) {
+    .top-header {
         flex-direction: row;
     }
-    
+
     .logo {
         width: 40%;
         text-align: left;
     }
 
-    .form{
+    .form {
         width: 40%;
     }
 
-    .form ul{
+    .form ul {
         margin-left: 0;
     }
 
-    nav{
+    nav {
         width: 50%;
     }
 
-    .products{
+    .products {
         display: flex;
     }
 
-    .offers{
+    .offers {
         padding: 15px 0px 1px 30px;
     }
 
-    main section article{
+    main section article {
         margin-right: 30px;
     }
 
-    .discount{
+    .discount {
         width: 50%;
     }
 
-    .price{
+    .price {
         width: 50%;
     }
 
@@ -229,49 +229,46 @@ footer {
         background-color: #222220;
         padding: 20px;
         text-align: center;
+        height: 17vh;
     }
-    
+
     footer h2 {
         color: #f2f2f0;
     }
-    
+
     footer .links {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     footer .links ul {
         list-style: none;
         padding: 0;
     }
-    
+
     footer .links li {
         margin-bottom: 10px;
         display: flex;
         align-items: center;
     }
-    
+
     footer .links i {
         margin-right: 10px;
     }
-    
+
     footer .links a {
         color: #f2f2f0;
         text-decoration: none;
         bottom: 0;
     }
-    
+
     footer .links .fab {
         font-size: 20px;
     }
-  }
+}
 
-  @media (min-width: 769px){
+@media (min-width: 769px) {}
 
-  }
-
-  @media (min-width: 1280px){
-    
-  }
+@media (min-width: 1280px) {}
