@@ -13,6 +13,9 @@ const controller = {
     },
     productDetail(req,res) {
         res.render('./users/productDetail')
+    },
+    createEdit(req,res){
+        res.render("./users/createEdit")
     }
 };
 

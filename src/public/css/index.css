@@ -11,6 +11,7 @@
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 
 .logo {
@@ -29,7 +30,7 @@
 
 .form ul {
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 65px;
 }
 
 .form ul input {
@@ -162,13 +163,13 @@ footer h2 {
     color: #f2f2f0;
     text-align: center;
     position: relative;
-    top: 14px;
+    top: 51px;
 }
 
 footer .links {
-    width: 5%;
+    width: 100%;
     position: relative;
-    top: 25px;
+    top: 88px;
     display: flex;
     flex-direction: column;
 }

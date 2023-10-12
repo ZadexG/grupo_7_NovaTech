@@ -1,23 +1,23 @@
 <%- include("../partials/head")%>
-<<<<<<< HEAD
-<head>
-    <link rel="stylesheet" href="/css/productCart.css">
-</head>
-=======
+
     <head>
         <link rel="stylesheet" href="/css/productCart.css">
     </head>
-<%- include("../partials/header")%> 
->>>>>>> 6582f33fbc6a887d83383137dae4e683f19887ac
-    <body>
-        <main>
-            <form action="productCart.html" method="post" >
-                <section class="cart">
-                    <div class="box-cart">
-                        <ul>
-                            <il><h1 class="registrarse">Mis compras</h1></il>
-                            <il><label>Producto - Cantidad - $Total</il></label>
-                                <il><p><select name="Cantidad" class="search-u"></p></il>
+    <%- include("../partials/header")%>
+
+        <body>
+            <main>
+                <form action="productCart.html" method="post">
+                    <section class="cart">
+                        <div class="box-cart">
+                            <ul>
+                                <il>
+                                    <h1 class="registrarse">Mis compras</h1>
+                                </il>
+                                <il><label>Producto - Cantidad - $Total</il></label>
+                                <il>
+                                    <p><select name="Cantidad" class="search-u"></p>
+                                </il>
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
@@ -27,16 +27,17 @@
                                 <option value="7">7</option>
                                 <option value="8">8</option>
                                 </select>
-                        </ul>
-                    </div>
-                </section>
-            </form>
-            <button type="submit" class="button2">Continuar</button>           
-            <p class="progress">
-                <label for="file">Finalizando:</label>
-                <progress id="file" max="100" value="70">70%</progress>
-            </p>
-        </main>
-    </body>
-<%- include("../partials/footer")%>
-</html>
+                            </ul>
+                        </div>
+                    </section>
+                </form>
+                <button type="submit" class="button2">Continuar</button>
+                <p class="progress">
+                    <label for="file">Finalizando:</label>
+                    <progress id="file" max="100" value="70">70%</progress>
+                </p>
+            </main>
+        </body>
+        <%- include("../partials/footer")%>
+
+            </html>

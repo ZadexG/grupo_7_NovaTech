@@ -1,255 +1,258 @@
-*{
-    margin: 0px;
-    padding: 0px;    
-    box-sizing: border-box;
-    font-family:"montserrat", sans-serif;
-}
-*{
-    margin: 0px;
-    padding: 0px;    
-    box-sizing: border-box;
-    font-family:"montserrat", sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "montserrat", sans-serif;
 }
 
-.top-header{
-    background-color: #0d0d0d;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+.top-header {
+  background-color: #0d0d0d;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .logo {
-    text-align: center;
+  text-align: center;
 }
 
-.logo img{
-    width: 90%;
+.logo img {
+  width: 90%;
 }
 
-.form{
-    width: 50%;
+.form {
+  width: 100%;
 }
 
-.form ul{
-    margin-top: 20px;
-    margin-left: 40px;
+.form ul {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
-.form ul input{
+.form ul input {
   width: 70%;
   margin-right: 20px;
 }
 
-nav{
-    color: #f2f2f0;
-    margin-top: 20px;
-    margin-bottom: 20px;
+nav {
+  color: #f2f2f0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-nav ul i{
-    margin-left: 25px;
-}
-nav ul a{
-    margin-left: 10px;
+nav ul i {
+  margin-left: 25px;
 }
 
-.header2{
-    background-color: #8c8674;
-    display: flex;
-    padding-left: 25px;
+nav ul a {
+  margin-left: 10px;
 }
 
-.header2 p{
-    font-family: 'Open Sans', sans-serif;
+.header2 {
+  background-color: #8c8674;
+  display: flex;
+  padding-left: 25px;
 }
 
-
-main{
-    width: 100%;
-    margin: 0 auto;
+.header2 p {
+  font-family: 'Open Sans', sans-serif;
 }
-  
 
 footer {
   background-color: #222220;
-  height: 26vh;
+  padding-bottom: 93px;
+  height: 25vh;
 }
 
 footer h2 {
-    color: #f2f2f0;
-    text-align: center;
-    position: relative;
-    top: 14px;
-  }
+  color: #f2f2f0;
+  text-align: center;
+  position: relative;
+  top: 51px;
+}
 
-  footer .links {
-    width: 5%;
-    position: relative;
-    top: 25px;
-    display: flex;
-    flex-direction: column;
-  }
+footer .links {
+  width: 100%;
+  position: relative;
+  top: 88px;
+  display: flex;
+  flex-direction: column;
+}
 
-footer .links i{
+footer .links i {
   margin-left: 30px;
 }
 
-footer .links a{
+footer .links a {
   position: relative;
   bottom: 15px;
   margin-left: 70px;
 }
-@media (min-width: 361px){
-        .progress {
-          justify-content: center;
-          display: flex;
-          position: relative;
-          bottom: 111px;
-          background-color: #333331;
-          margin-top: -22px;
-        }
-  
-        main .cart {
-          display: flex;
-          justify-content: center;
-          background-color: #222220;
-          padding: 1vh;
-          padding-top: 1vh;
-          padding-top: 290px;
-        }
+
+@media (min-width: 361px) {
+  .progress {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: 111px;
+    background-color: #333331;
+    margin-top: -22px;
   }
-        main section .box-cart {
-          border: solid;
-          background: #1e1e1a;
-          padding-left: 50px;
-          padding-right: 50px;
-          position: relative;
-          bottom: 157px;
-          height: 393px;
-        }
-  
-        .box {
-          border: solid;
-          background: #1e1e1a;
-          padding-left: 20px;
-          padding-right: 20px;
-        }
-  
-        .box-login {
-          border: solid;
-          background: #1e1e1a;
-          padding-left: 20px;
-          padding-right: 20px;
-          height: 350px;
-        }
 
-  
-        .registrarse {
-          text-align: center;
-          color: white;
-          text-decoration: underline;
-          opacity: 80%;
-          margin-bottom: 5px;
-        }
+  main .cart {
+    display: flex;
+    justify-content: center;
+    background-color: #222220;
+    padding: 1vh;
+    padding-top: 1vh;
+    padding-top: 290px;
+  }
+}
 
-  
-        .button:hover{
-          background:#0022AA
-        }
-       
-        button {
-          font-family: "montserrat", sans-serif;
-          background: #1a65ab;
-          color: #fff;
-          border: none;
-          position: relative;
-          height: 50px;
-          font-size: 1.2em;
-          padding: 0 2em;
-          cursor: pointer;
-          transition: 800ms ease all;
-          outline: none;
-          bottom: -28px;
-          margin-left: 62px;
-        }
-        button:hover{
-          
-          background:#fff;
-          color:#1AAB8A;
-        }
-        button:before,button:after{
-          content:'';
-          position:absolute;
-          top:0;
-          right:0;
-          height:2px;
-          width:0;
-          background: #1AAB8A;
-          transition:400ms ease all;
-        }
-        button:after{
-          right:inherit;
-          top:inherit;
-          left:0;
-          bottom:0;
-        }
-        button:hover:before,button:hover:after{
-          width:100%;
-          transition:800ms ease all;
-        }
-  
-        .button2:hover{
-          background:#0022AA
-        }
-       
-        .button2 {
-          font-family: "montserrat", sans-serif;
-          background: #1a65ab;
-          color: #fff;
-          border: none;
-          position: relative;
-          height: 1px;
-          font-size: 13px;
-          padding: 1px;
-          cursor: pointer;
-          transition: 800ms ease all;
-          outline: none;
-          bottom: -255px;
-          right: -125px;
-        }
-        .button2:hover{
-          
-          background:#fff;
-          color:#1AAB8A;
-        }
-        .button2:before,button:after{
-          content:'';
-          position:absolute;
-          top:0;
-          right:0;
-          height:2px;
-          width:0;
-          background: #1AAB8A;
-          transition:400ms ease all;
-        }
-        .button2:after{
-          right:inherit;
-          top:inherit;
-          left:0;
-          bottom:0;
-        }
-        .button2:hover:before,button:hover:after{
-          width:100%;
-          transition:800ms ease all;
-        }
-  
-      
-        main section ul p {
-          color: white;
-          margin-bottom: 20px;
-          text-align: center;
-          margin-top: 21px;
-          text-decoration: underline;
-          font-size: 17px;
-        }
+main section .box-cart {
+  border: solid;
+  background: #1e1e1a;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  bottom: 157px;
+  height: 393px;
+}
+
+.box {
+  border: solid;
+  background: #1e1e1a;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.box-login {
+  border: solid;
+  background: #1e1e1a;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 350px;
+}
+
+
+.registrarse {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+  opacity: 80%;
+  margin-bottom: 5px;
+}
+
+
+.button:hover {
+  background: #0022AA
+}
+
+button {
+  font-family: "montserrat", sans-serif;
+  background: #1a65ab;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 50px;
+  font-size: 1.2em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  bottom: -28px;
+  margin-left: 62px;
+}
+
+button:hover {
+
+  background: #fff;
+  color: #1AAB8A;
+}
+
+button:before,
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1AAB8A;
+  transition: 400ms ease all;
+}
+
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.button2:hover {
+  background: #0022AA
+}
+
+.button2 {
+  font-family: "montserrat", sans-serif;
+  background: #1a65ab;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 1px;
+  font-size: 13px;
+  padding: 1px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  bottom: -255px;
+  right: -125px;
+}
+
+.button2:hover {
+
+  background: #fff;
+  color: #1AAB8A;
+}
+
+.button2:before,
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1AAB8A;
+  transition: 400ms ease all;
+}
+
+.button2:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.button2:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+
+main section ul p {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 21px;
+  text-decoration: underline;
+  font-size: 17px;
+}
