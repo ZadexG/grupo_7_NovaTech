@@ -291,7 +291,7 @@ footer .links a {
 
   h4 .registerMe {
     position: relative;
-    right: 60px;
+    right: 70px;
   }
 
   .border {
@@ -342,7 +342,8 @@ footer .links a {
     cursor: pointer;
     transition: 800ms ease all;
     outline: none;
-    bottom: -28px;
+    bottom: -24px;
+    right: 54px;
   }
 
   button:hover {

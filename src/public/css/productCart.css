@@ -90,6 +90,91 @@ footer .links a {
   margin-left: 70px;
 }
 
+button:hover {
+
+  background: #fff;
+  color: #1AAB8A;
+}
+
+button:before,
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1AAB8A;
+  transition: 400ms ease all;
+}
+
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.button2:hover {
+  background: #ffffff
+}
+
+.button2 {
+  font-family: "montserrat", sans-serif;
+  background: #ffffff;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 1px;
+  font-size: 13px;
+  padding: 1px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  bottom: -249px;
+  left: 168px;
+}
+
+.button2:hover {
+
+  background: #fff;
+  color: #1AAB8A;
+}
+
+.button2:before,
+button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1AAB8A;
+  transition: 400ms ease all;
+}
+
+.button2:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.button2:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+
+
+
 @media (min-width: 361px) {
   .progress {
     justify-content: center;
@@ -147,104 +232,6 @@ main section .box-cart {
 
 .button:hover {
   background: #0022AA
-}
-
-button {
-  font-family: "montserrat", sans-serif;
-  background: #1a65ab;
-  color: #fff;
-  border: none;
-  position: relative;
-  height: 50px;
-  font-size: 1.2em;
-  padding: 0 2em;
-  cursor: pointer;
-  transition: 800ms ease all;
-  outline: none;
-  bottom: -28px;
-  margin-left: 62px;
-}
-
-button:hover {
-
-  background: #fff;
-  color: #1AAB8A;
-}
-
-button:before,
-button:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 2px;
-  width: 0;
-  background: #1AAB8A;
-  transition: 400ms ease all;
-}
-
-button:after {
-  right: inherit;
-  top: inherit;
-  left: 0;
-  bottom: 0;
-}
-
-button:hover:before,
-button:hover:after {
-  width: 100%;
-  transition: 800ms ease all;
-}
-
-.button2:hover {
-  background: #0022AA
-}
-
-.button2 {
-  font-family: "montserrat", sans-serif;
-  background: #1a65ab;
-  color: #fff;
-  border: none;
-  position: relative;
-  height: 1px;
-  font-size: 13px;
-  padding: 1px;
-  cursor: pointer;
-  transition: 800ms ease all;
-  outline: none;
-  bottom: -255px;
-  right: -125px;
-}
-
-.button2:hover {
-
-  background: #fff;
-  color: #1AAB8A;
-}
-
-.button2:before,
-button:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 2px;
-  width: 0;
-  background: #1AAB8A;
-  transition: 400ms ease all;
-}
-
-.button2:after {
-  right: inherit;
-  top: inherit;
-  left: 0;
-  bottom: 0;
-}
-
-.button2:hover:before,
-button:hover:after {
-  width: 100%;
-  transition: 800ms ease all;
 }
 
 
